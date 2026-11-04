@@ -1,0 +1,134 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #FCE4F1;
+    color: #593047;
+    padding: 30px 15px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+header h1 {
+    color: #C02675;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #D94B9B;
+    font-size: 15px;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.profile-card {
+    background: #FFFAFD;
+    width: 390px;
+    padding: 35px 25px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(190, 60, 130, 0.15);
+}
+
+.profile-image {
+    width: 165px;
+    height: 165px;
+    margin: 0 auto 20px;
+    border: 5px solid #E84393;
+    border-radius: 50%;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.tag {
+    display: inline-block;
+    background: #FAD1E8;
+    color: #B52C78;
+    padding: 9px 18px;
+    border-radius: 20px;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.profile-card h2 {
+    color: #C02675;
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+
+.profile-card h3 {
+    color: #E84393;
+    margin-bottom: 15px;
+}
+
+.department {
+    color: #927184;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.info {
+    text-align: left;
+    margin: 25px 0;
+    line-height: 2.5;
+    color: #9C4778;
+    font-size: 14px;
+}
+
+.about {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.about h3 {
+    font-size: 21px;
+    color: #C02675;
+    margin-bottom: 15px;
+}
+
+.about p {
+    font-size: 15px;
+    line-height: 2;
+    color: #705666;
+}
+
+footer {
+    text-align: center;
+    color: #B77D9D;
+    margin-top: 40px;
+    font-size: 13px;
+}
+
+/* รองรับโทรศัพท์ */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 25px;
+    }
+
+    .profile-card {
+        width: 100%;
+        max-width: 390px;
+    }
+}
